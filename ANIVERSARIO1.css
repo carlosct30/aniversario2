@@ -1,0 +1,152 @@
+
+body {
+    font-family: 'Pacifico', cursive;
+    background-image:url('https://s2.best-wallpaper.net/wallpaper/1920x1080/1701/Teddy-bear-love-hearts-romantic-clothespin_1920x1080.jpg');
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login-section {
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-dia-san-valentin-estilo-grunge-diseno-corazones_1048-17781.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255,255,255,0.5);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.login-section input, .login-section button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.login-section input:focus, .login-section button:hover {
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
+
+.content-section {
+    text-align: center;
+    align-content: center;
+   
+}
+
+.happy-birthday-section {
+    color: red;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: 60px;
+    
+}
+
+.image-gallery img {
+    width: 275px;
+    height: 325px;
+    margin-bottom: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.2);
+    filter: brightness(120%) blur(2px);
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+.video-section iframe {
+    width: 25%;
+    height: 600px;
+    
+}
+
+.surprise-link {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 25px 50px;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 65px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.surprise-link:hover {
+    background-color: #45a049;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caja-roja {
+    width: 60%;
+    height: 80%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    left: 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(20px); }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes scaleUp {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
