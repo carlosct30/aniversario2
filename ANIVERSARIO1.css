@@ -1,6 +1,5 @@
 
 body {
-    font-family: 'Pacifico', cursive;
     background: url('osito.jpg');
 }
 
@@ -78,11 +77,6 @@ body {
     box-shadow: 0 0 30px rgba(0,0,0,0.7);
 }
 
-.video-section {
-    width: 25%;
-    height: 400px;
-    
-}
 
 .surprise-link {
     display: inline-block;
