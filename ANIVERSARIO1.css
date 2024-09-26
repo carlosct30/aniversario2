@@ -78,7 +78,7 @@ body {
     box-shadow: 0 0 30px rgba(0,0,0,0.7);
 }
 
-.video-section iframe {
+.video-section {
     width: 25%;
     height: 600px;
     
